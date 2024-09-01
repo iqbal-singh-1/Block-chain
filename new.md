@@ -1,0 +1,17 @@
+# What is hashing algorithm???
+- Hashing algorithm is defined as an form of encrypting the data so as to protect the data from unauthorized access.
+- There are many hashing algorithms available in market like SHA1, SHA256, SHA516 etc.
+## Properties of hashing
+1. Hashing algorithms are designed in such a way that even if small bit of data is changed in the file or data that is hashed, the hash changes completely.(Avlanche effect)
+2. The hash generated ny each algorithm cannot be decrypted back.
+3. The data encrypted through any hashing algorithm cannot be decrypted very easily, so it's a very time-consuming process(By this, we mean if it is strongly encoded, it may take take more than 100 of years) to decode the data.
+4. Hash generated for each data is unique and you will always get the same hash for same data if you are using same algorithm.
+5. Length of SHA256 hash is 64 characters, i.e, 64*4 = 256 bits.
+## Role of hashing in blockchain
+- Hashing plays a very important role in blockchain tachnology.
+- Each computer in blockchain is termed as node.
+- Each of these nodes are mainly made of 3 main components which are data to be transmitted, hash of current node and hash of previous node in the chain.
+- Now if the data of one of the nodes is changed by some interupter, it's whole hash changes.
+- Now due to this change in hash, the next node to it will come to know that it should have recieved some else hash instead of what it is recieving.
+- Due to this , the whole chain is disrupted and the it becomes obvious that someone is trying to interupt communication.
+- Consider it like one person is saying something else and all others have the some different opinion on which they are agreed. Since they are in majority, they will not consider the opinion of that single person and hence the right decision on which the whole community agrees will be finalized.  
