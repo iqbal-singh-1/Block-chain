@@ -1,15 +1,53 @@
-# What is minning ??
-- Minning of bitcoins, for example, basically means that finding a block that can be attached to our chain of blocks. The person who this job is called as a <b>miner</b>.
-- It is a very difficult job because we know that the data in block-chain needs to be immutable and must follow Alvanche effect.
-- In the end when a block is mined and approved successfully, miner is rewarded with a very high reward in terms of cryptocurrency.
-## How is minning done???
-- So basically, miner is provided with a block that has to be mined.
-- Now, we all know that a block contains information like header, data and hash of previous block.
-- However, blocks contain something else known as <b>Nonce</b>. It is nothing but just a number which is used to achieve <b>target hash</b>.Target hash is basically a hash set by Network protocols. 
-- That is all a nminer has to do, find the nonce!!!.
-- Miners may work in groups to find the nonce.
-- A new kind of circuit known as ASIC is used by miners to do the minning which is very expenses.
-## Challenges
-- Since we know that a simple change in data can completely change hash of the block, sothere are only few numbers which can reach the target hash.
-- It is more difficult than it looks. It take months or years to mine a block and nodes have to be kept running for this much time which demands alot of electricity and AC's to cool down the temperature of CPU.
-- Moreover, target hash changes every 2 weeks, so it is kind of challenging to find the target hash on such a short notice.
+# What is Mining?
+
+Mining, in the context of cryptocurrencies like Bitcoin, refers to the process of finding a block that can be added to the blockchain. The individual who performs this task is called a **miner**.
+
+- Mining is challenging because the blockchain must remain immutable and satisfy the **Avalanche Effect** (small changes in input drastically change the output).
+- When a block is successfully mined and approved, the miner receives a significant reward in cryptocurrency.
+
+---
+
+## How is Mining Done?
+
+1. **Mining Process**:
+   - A miner is provided with a block that needs to be mined.
+   - A block contains:
+     - Header
+     - Data
+     - Hash of the previous block
+     - **Nonce**: A number used to find the **target hash**.
+
+2. **Target Hash**:
+   - A predetermined hash value set by network protocols.
+   - The miner's task is to find a nonce that results in a hash less than or equal to the target hash.
+
+3. **Tools for Mining**:
+   - Miners often collaborate in groups (mining pools) to find the nonce.
+   - **ASIC (Application-Specific Integrated Circuit)**: A specialized and expensive hardware used to perform mining efficiently.
+
+---
+
+## Challenges in Mining
+
+1. **Difficulty of Finding the Target Hash**:
+   - Due to the sensitivity of hash functions, even a minor change in data completely alters the hash.
+   - Only a few nonce values result in a hash that meets the target, making mining computationally intensive.
+
+2. **Resource Requirements**:
+   - Mining can take months or years to find a valid block.
+   - Nodes must run continuously, consuming large amounts of electricity.
+   - Miners require cooling systems, such as air conditioners, to maintain CPU temperatures.
+
+3. **Dynamic Target Hash**:
+   - The target hash is adjusted approximately every two weeks, making it even more challenging to predict or plan for successful mining.
+
+---
+
+## Conclusion
+
+Mining is a critical process in maintaining the integrity of blockchain systems by ensuring immutability and decentralization. While it offers high rewards, it demands significant resources, time, and effort.
+
+---
+
+### Source
+Self-explanatory based on blockchain fundamentals.
